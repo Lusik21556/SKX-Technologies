@@ -1,0 +1,22 @@
+name: SkxLoader
+version: 1.0.0
+main: me.Lusik21556.skxloader.SkxLoader
+api-version: '1.21'
+depend:
+  - Skript
+description: Loads encrypted .skx scripts into Skript at runtime.
+authors:
+  - Lusik21556
+commands:
+  skxload:
+    description: Hot-load .skx
+    usage: /skxload [<file.skx>]
+    permission: skxloader.load
+  skxreload:
+    description: reloads a specific .skx
+    usage: /skxreload <file.skx>
+    permission: skxloader.load
+permissions:
+  skxloader.load:
+    description: Allows use of /skxload and /skxreload
+    default: op

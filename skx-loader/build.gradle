@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'me.Lusik21556'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+repositories {
+    maven { url 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url 'https://repo.skriptlang.org/releases' }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT'
+    compileOnly('com.github.SkriptLang:Skript:2.15.0') {
+        transitive = false
+    }
+}
+
+jar {
+    archiveFileName = 'SkxLoader.jar'
+}

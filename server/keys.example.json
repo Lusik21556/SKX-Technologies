@@ -1,0 +1,10 @@
+{
+  "LS-A1B2-C3D4": {
+    "aesKey": "base64-aes-key-from-the-obfuscator-output",
+    "iv": "base64-iv-from-the-obfuscator-output",
+    "checksum": "hex-sha256-from-the-obfuscator-output",
+    "enabled": true,
+    "slots": 1,
+    "expires": null
+  }
+}

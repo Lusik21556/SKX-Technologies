@@ -95,3 +95,6 @@ The buyer runs this on their own box so the key and the decrypted skript both la
 Make sure to obfuscate your skxloader build and modify it so an skxloader from here won't pull your keys
 
 AI was used for grammar and wording in this README and in code comments, if you got a problem with this i can also write in german and good luck translating that shit
+
+
+don't be a skid, leave a star
